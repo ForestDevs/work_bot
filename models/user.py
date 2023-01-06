@@ -5,7 +5,8 @@ from sqlalchemy import String
 
 
 class User(Base):
-    __tablename__ = "user"
+
+    __tablename__ = 'users'
 
     id = Column(Integer, primary_key=True)
     first_name = Column(String(30))
